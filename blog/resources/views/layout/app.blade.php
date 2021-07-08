@@ -13,6 +13,15 @@
         <link rel="stylesheet" href=" {{ asset('css/app.css') }} ">
     </head>
     <body>
-        
+
+        {{-- SITE HEADER --}}
+        <header id="site_header">HEADER CONTENT</header>
+
+        {{-- SITE_MAIN --}}
+        <main id="site_main">MAIN CONTENT</main>
+
+        {{-- SITE FOOTER --}}
+        <footer id="site_footer">FOOTER CONTENT</footer>
+
     </body>
 </html>
