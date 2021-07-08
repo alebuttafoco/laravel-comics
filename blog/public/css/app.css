@@ -44,3 +44,12 @@ body {
 .nav .links a:not(:last-child) {
   margin-right: 3rem;
 }
+
+.search_box input {
+  text-align: right;
+  font-family: "Fira Sans Condensed", sans-serif;
+  border-style: none;
+  border-bottom: 3px solid #0282F9;
+  height: 30px;
+  padding-right: 10px;
+}

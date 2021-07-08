@@ -35,3 +35,15 @@
         }
     }
 }
+
+.search_box{
+    input{
+        text-align: right;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        border-style: none;
+        border-bottom: 3px solid $primary_color;
+        height: 30px;
+        padding-right: 10px;
+
+    }
+}
