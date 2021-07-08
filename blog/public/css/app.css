@@ -53,3 +53,11 @@ body {
   height: 30px;
   padding-right: 10px;
 }
+
+.jumbotron {
+  height: 450px;
+  width: 100%;
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
