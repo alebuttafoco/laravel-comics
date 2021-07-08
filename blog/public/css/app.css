@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header__top {
+  background-color: #0282F9;
+  color: #FFFFFF;
+  text-align: right;
+}
+.header__top span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.header__top span:not(:last-child) {
+  margin-right: 3rem;
+}
