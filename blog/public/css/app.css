@@ -40,9 +40,14 @@ body {
   text-decoration: none;
   color: #1C1C1C;
   font-weight: 700;
+  padding-bottom: 49px;
 }
 .nav .links a:not(:last-child) {
   margin-right: 3rem;
+}
+.nav .links .active {
+  border-bottom: 5px solid #0282F9;
+  color: #0282F9;
 }
 
 .search_box input {

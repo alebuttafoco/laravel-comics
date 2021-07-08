@@ -29,9 +29,14 @@
             text-decoration: none;
             color: $secondary_color;
             font-weight: 700;
+            padding-bottom: 49px;
         }
         a:not(:last-child){
             margin-right: 3rem;
+        }
+        .active{
+            border-bottom: 5px solid $primary_color;
+            color: $primary_color;
         }
     }
 }

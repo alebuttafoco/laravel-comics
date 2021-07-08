@@ -33,16 +33,16 @@
 
                 {{-- links --}}
                 <div class="links">
-                    <a href=" {{route('characters')}} ">characters</a>
-                    <a href=" {{route('comics')}} ">comics</a>
-                    <a href=" {{route('movies')}} ">movies</a>
-                    <a href=" {{route('tv')}} ">tv</a>
-                    <a href=" {{route('games')}} ">games</a>
-                    <a href=" {{route('collectibles')}} ">collectibles</a>
-                    <a href=" {{route('videos')}} ">videos</a>
-                    <a href=" {{route('fans')}} ">fans</a>
-                    <a href=" {{route('news')}} ">news</a>
-                    <a href=" {{route('shop')}} ">shop</a>
+                    <a href=" {{route('characters')}} "  class=" {{Route::currentRouteName() == 'characters' ? 'active' : ''}} ">characters</a>
+                    <a href=" {{route('comics')}} " class=" {{Route::currentRouteName() == 'comics' ? 'active' : ''}} ">comics</a>
+                    <a href=" {{route('movies')}} "  class=" {{Route::currentRouteName() == 'movies' ? 'active' : ''}} ">movies</a>
+                    <a href=" {{route('tv')}} "  class=" {{Route::currentRouteName() == 'tv' ? 'active' : ''}} ">tv</a>
+                    <a href=" {{route('games')}} "  class=" {{Route::currentRouteName() == 'games' ? 'active' : ''}} ">games</a>
+                    <a href=" {{route('collectibles')}} "  class=" {{Route::currentRouteName() == 'collectibles' ? 'active' : ''}} ">collectibles</a>
+                    <a href=" {{route('videos')}} "  class=" {{Route::currentRouteName() == 'videos' ? 'active' : ''}} ">videos</a>
+                    <a href=" {{route('fans')}} "  class=" {{Route::currentRouteName() == 'fans' ? 'active' : ''}} ">fans</a>
+                    <a href=" {{route('news')}} "  class=" {{Route::currentRouteName() == 'news' ? 'active' : ''}} ">news</a>
+                    <a href=" {{route('shop')}} "  class=" {{Route::currentRouteName() == 'shop' ? 'active' : ''}} ">shop</a>
                 </div>
 
                 {{-- search input --}}
