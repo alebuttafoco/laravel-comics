@@ -28,7 +28,7 @@
             <nav class="nav container">
                 {{-- logo --}}
                 <div class="logo">
-                    <img src="./img/dc-logo.png" alt="">
+                    <img class="logo__img" src="./img/dc-logo.png" alt="">
                 </div>
 
                 {{-- links --}}
