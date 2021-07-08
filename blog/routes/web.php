@@ -29,7 +29,7 @@ Route::get('/tv', function () {
     return view('tv');
 })->name('tv');
 
-Route::get('/games ', function () {
+Route::get('/games', function () {
     return view('games');
 })->name('games');
 
