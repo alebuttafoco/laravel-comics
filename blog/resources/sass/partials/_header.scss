@@ -1,0 +1,12 @@
+.header__top{
+    background-color: $primary_color;
+    color: $light_color;
+    text-align: right;
+    span{
+        font-size: .8rem;
+        text-transform: uppercase;
+    }
+    span:not(:last-child){
+        margin-right: 3rem;
+    }
+}
