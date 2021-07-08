@@ -3,6 +3,14 @@
     background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    & > .container{
+        background-image:  url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: right;
+    }
+
     .container{
         display: flex;
         justify-content: space-between;
@@ -34,6 +42,7 @@
 
 .rights{
     margin-top: 20px;
+    padding-bottom: 50px;
     color: $dark_color;
 
     a{

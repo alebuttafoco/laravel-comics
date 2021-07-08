@@ -111,11 +111,6 @@
                         <a href="#" class="link--special">Cookies Settings</a>
                     </div>
                 </div>
-    
-                {{-- logo --}}
-                <div class="logo--big">
-                    <img src="./img/dc-logo-bg.png" alt="">
-                </div>
             </div>
 
             <div class="footer__bottom">

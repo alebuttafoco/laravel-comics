@@ -82,6 +82,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#footer > .container {
+  background-image: url(../img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right;
+}
 #footer .container {
   display: flex;
   justify-content: space-between;
@@ -110,6 +116,7 @@ body {
 
 .rights {
   margin-top: 20px;
+  padding-bottom: 50px;
   color: #797979;
 }
 .rights a {
