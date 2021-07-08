@@ -47,7 +47,7 @@
 
                 {{-- search input --}}
                 <div class="search_box">
-                    <input type="text" name="search_input" id="search_input">
+                    <input type="text" name="search_input" id="search_input" placeholder="Search">
                 </div>
 
             </nav>
