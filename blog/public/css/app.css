@@ -66,3 +66,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .links {
+  display: flex;
+}
+
+.comics_and_shop, .dc, .sites {
+  display: flex;
+  flex-direction: column;
+}

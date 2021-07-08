@@ -1,0 +1,16 @@
+#footer{
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .links{
+    display: flex;
+}
+}
+
+
+
+.comics_and_shop, .dc, .sites{
+    display: flex;
+    flex-direction: column;
+}

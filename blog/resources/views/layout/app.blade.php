@@ -60,7 +60,66 @@
         <main id="main">MAIN CONTENT</main>
 
         {{-- SITE FOOTER --}}
-        <footer id="footer">FOOTER CONTENT</footer>
+        <footer id="footer">
+            <div class="container">
+
+                {{-- links --}}
+                <div class="links_box">
+                    <div class="links">
+                        <div class="comics_and_shop">
+                            <h2 class="footer_title">dc comics</h2>
+                            <a href="{{route('characters')}}">characters</a>
+                            <a href="{{route('comics')}}">comics</a>
+                            <a href="{{route('movies')}}">movies</a>
+                            <a href="{{route('tv')}}">tv</a>
+                            <a href="{{route('games')}}">games</a>
+                            <a href="{{route('videos')}}">videos</a>
+                            <a href="{{route('news')}}">news</a>
+    
+                            <h2 class="footer_title">shop now</h2>
+                            <a href="{{route('shop')}}">shop dc</a>
+                            <a href="{{route('collectibles')}}">shop dc collectibles</a>
+                        </div>
+    
+                        <div class="dc">
+                            <h2 class="footer_title">dc</h2>
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy policy (new)</a>
+                            <a href="#">Ad choices</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">Subscriptions</a>
+                            <a href="#">Talent Workshop</a>
+                            <a href="#">CPFC Certificates</a>
+                            <a href="#">Ratings</a>
+                            <a href="#">Shop Help</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+    
+                        <div class="sites">
+                            <h2 class="footer_title">sites</h2>
+                            <a href="#">DC</a>
+                            <a href="#">MAD Magazine (new)</a>
+                            <a href="#">DC Kids</a>
+                            <a href="#">DC Universe</a>
+                            <a href="#">DC Power Visa</a>
+                        </div>
+                    </div>
+    
+                    {{-- rights --}}
+                    <div class="rights">
+                        <p>All site content TM and 2020 DC Entertainment, unless otherwise <a class="link--special">noted here</a>. All rights reserved.</p>
+                        <a href="#" class="link--special">Cookies Settings</a>
+                    </div>
+                </div>
+    
+                {{-- logo --}}
+                <div class="logo--big">
+                    <img src="./img/dc-logo-bg.png" alt="">
+                </div>
+
+            </div>
+        </footer>
 
     </body>
 </html>
