@@ -10,3 +10,28 @@
         margin-right: 3rem;
     }
 }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    .logo{
+        &__img{
+            width: 90px;
+        }
+    }
+
+    .links{
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $secondary_color;
+            font-weight: 700;
+        }
+        a:not(:last-child){
+            margin-right: 3rem;
+        }
+    }
+}

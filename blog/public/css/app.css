@@ -1,7 +1,11 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .container {
@@ -19,5 +23,24 @@
   text-transform: uppercase;
 }
 .header__top span:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.nav .logo__img {
+  width: 90px;
+}
+.nav .links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1C1C1C;
+  font-weight: 700;
+}
+.nav .links a:not(:last-child) {
   margin-right: 3rem;
 }
