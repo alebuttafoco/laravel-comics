@@ -62,23 +62,22 @@
         {{-- SITE FOOTER --}}
         <footer id="footer">
             <div class="container">
-
                 {{-- links --}}
                 <div class="links_box">
                     <div class="links">
                         <div class="comics_and_shop">
                             <h2 class="footer_title">dc comics</h2>
-                            <a href="{{route('characters')}}">characters</a>
-                            <a href="{{route('comics')}}">comics</a>
-                            <a href="{{route('movies')}}">movies</a>
-                            <a href="{{route('tv')}}">tv</a>
-                            <a href="{{route('games')}}">games</a>
-                            <a href="{{route('videos')}}">videos</a>
-                            <a href="{{route('news')}}">news</a>
+                            <a href="{{route('characters')}}">Characters</a>
+                            <a href="{{route('comics')}}">Comics</a>
+                            <a href="{{route('movies')}}">Movies</a>
+                            <a href="{{route('tv')}}">Tv</a>
+                            <a href="{{route('games')}}">Games</a>
+                            <a href="{{route('videos')}}">Videos</a>
+                            <a href="{{route('news')}}">News</a>
     
-                            <h2 class="footer_title">shop now</h2>
-                            <a href="{{route('shop')}}">shop dc</a>
-                            <a href="{{route('collectibles')}}">shop dc collectibles</a>
+                            <h2 class="footer_title">Shop</h2>
+                            <a href="{{route('shop')}}">Shop DC</a>
+                            <a href="{{route('collectibles')}}">Shop DC Collectibles</a>
                         </div>
     
                         <div class="dc">
@@ -108,7 +107,7 @@
     
                     {{-- rights --}}
                     <div class="rights">
-                        <p>All site content TM and 2020 DC Entertainment, unless otherwise <a class="link--special">noted here</a>. All rights reserved.</p>
+                        <p>All site content TM and 2020 DC Entertainment, unless otherwise <a href="#" class="link--special">noted here</a>. All rights reserved.</p>
                         <a href="#" class="link--special">Cookies Settings</a>
                     </div>
                 </div>
@@ -117,7 +116,21 @@
                 <div class="logo--big">
                     <img src="./img/dc-logo-bg.png" alt="">
                 </div>
+            </div>
 
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="btn">sign-up now!</div>
+
+                    <div class="follow">
+                        <span>follow us</span>
+                        <a href="#"><img src="./img/footer-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/footer-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/footer-youtube.png" alt=""></a>
+                        <a href="#"><img src="./img/footer-periscope.png" alt=""></a>
+                        <a href="#"><img src="./img/footer-pinterest.png" alt=""></a>
+                    </div>
+                </div>
             </div>
         </footer>
 

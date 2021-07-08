@@ -12,3 +12,12 @@ body{
     width: 80%;
     margin: auto;
 }
+
+.btn{
+    text-transform: uppercase;
+    color: $light_color;
+    border: 1px solid $primary_color;
+    padding: 12px ;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
