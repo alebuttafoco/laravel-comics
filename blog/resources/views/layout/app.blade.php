@@ -16,14 +16,22 @@
 
         {{-- SITE HEADER --}}
         <header id="header">
-            <div class="header__top">colore blu</div>
+            {{-- top header --}}
+            <div class="header__top">
+                <div class="container">
+                    <span>powered by VISA</span>
+                    <span>additional DC sites</span>
+                </div>
+            </div>
 
-            <nav class="nav">
-
+            {{-- navbar --}}
+            <nav class="nav container">
+                {{-- logo --}}
                 <div class="logo">
                     <img src="./img/dc-logo.png" alt="">
                 </div>
 
+                {{-- links --}}
                 <div class="links">
                     <a href=" {{route('characters')}} ">characters</a>
                     <a href=" {{route('comics')}} ">comics</a>
@@ -37,6 +45,7 @@
                     <a href=" {{route('shop')}} ">shop</a>
                 </div>
 
+                {{-- search input --}}
                 <div class="search_box">
                     <input type="text" name="search_input" id="search_input">
                 </div>
