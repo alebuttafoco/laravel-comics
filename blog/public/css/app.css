@@ -68,6 +68,14 @@ section {
   top: -35px;
 }
 
+.bb {
+  border-bottom: 1px solid lightgray;
+}
+
+.bt {
+  border-top: 1px solid lightgray;
+}
+
 .header__top {
   background-color: #0282F9;
   color: #FFFFFF;
@@ -277,4 +285,34 @@ section {
   width: 300px;
   height: 300px;
   border: 1px solid black;
+}
+.book .info_bottom {
+  border-top: 1px solid lightgray;
+  background-color: #F6F6F6;
+  padding: 50px 0;
+}
+.book .info_bottom .info:first-child {
+  padding-right: 50px;
+}
+.book .info_bottom .info:last-child {
+  padding-left: 50px;
+}
+.book .info_bottom .info {
+  width: 50%;
+}
+.book .info_bottom .info__title {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  color: #003F5E;
+}
+.book .info_bottom .group {
+  width: 30%;
+  padding: 20px 0;
+}
+.book .info_bottom .group_text {
+  width: 70%;
+  padding: 20px 0;
+}
+.book .info_bottom .group_text a {
+  color: #18B3E2;
 }

@@ -115,4 +115,42 @@
         }
     }
 
+    .info_bottom{
+        border-top: 1px solid lightgray;
+        background-color: $medium;
+        padding: 50px 0;
+
+        .info:first-child{
+            padding-right: 50px;
+        }
+
+        .info:last-child{
+            padding-left: 50px;
+        }
+
+        .info{
+            width: 50%;
+
+            &__title{
+               padding-bottom: 30px;
+               font-size: 1.6rem;
+               color: $heading_info;
+            }
+        }
+
+        .group{
+            width: 30%;
+            padding: 20px 0;
+        }
+
+        .group_text{
+            width: 70%;
+            padding: 20px 0;
+
+            a{
+                color: $link;
+            }
+        }
+    }
+
 }

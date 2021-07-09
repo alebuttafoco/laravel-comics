@@ -46,20 +46,71 @@
     </div>
 
     {{-- talent and specs --}}
-    <div class="">
+    <div class="info_bottom">
 
         <div class="container-sm row-between">
             {{-- talent --}}
             <div class="info">
-                <h2 class="info__title">Talent</h2>
+                <h2 class="info__title bb">Talent</h2>
+
+                {{-- art by --}}
+                <div class="row-between bb">
+                    <div class="group">Art by:</div>
+                    <div class="group_text">
+                        @foreach ($comic['artists'] as $artist)
+                            <a href="#"> {{$artist}} </a> 
+                            @if (!$loop->last)
+                                ,
+                            @endif
+                        @endforeach
+                    </div>
+                </div>
+
+                {{-- written by --}}
+                <div class="row-between bb">
+                    <div class="group">Written by:</div>
+                    <div class="group_text">
+                        @foreach ($comic['writers'] as $writer)
+                            <a href="#"> {{$writer}} </a>
+                            @if (!$loop->last)
+                                ,
+                            @endif
+                        @endforeach
+                    </div>
+                </div>
             </div>
     
             {{-- specs --}}
             <div class="info">
-                <h2 class="info__title">Specs</h2>
+                <h2 class="info__title bb">Specs</h2>
+                
+                {{-- serie --}}
+                <div class="row-between bb">
+                    <div class="group">Series:</div>
+                    <div class="group_text">
+                        <a href="#" > {{$comic['series']}}</a>
+                    </div>
+                </div>
+            
+            
+                {{-- US price --}}
+                <div class="row-between bb">
+                    <div class="group">U.S Price:</div>
+                    <div class="group_text">
+                        <span>{{$comic['price']}}</span>
+                    </div>
+                </div>
+            
+                {{-- sale date --}}
+                <div class="row-between bb">
+                    <div class="group">On Sale Date:</div>
+                    <div class="group_text">
+                        <span>{{$comic['sale_date']}}</span>
+                    </div>
+                </div>
+                
             </div>
         </div>
-
     </div>
 </div>
 
