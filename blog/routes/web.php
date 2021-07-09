@@ -17,9 +17,19 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
+/* ************************************** 
+COMICS 
+**************************************** */
+
 Route::get('/', function () {
-    return view('comics'); 
+    $comics = config('comics.data');
+
+    return view('comics', compact('comics')); 
 })->name('comics');
+
+/* ************************************
+/end COMICS
+************************************* */
 
 Route::get('/movies', function () {
     return view('movies');
