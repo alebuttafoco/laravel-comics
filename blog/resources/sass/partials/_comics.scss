@@ -50,4 +50,37 @@
             }
         }
     }
+
+}
+
+// *************************************************
+//  CONTENT
+// *************************************************
+.book{
+    &__cover{
+        background-color: $primary_color;
+        height: 80px;
+        position: relative;
+    
+        img{
+            position: absolute;
+            bottom: 25px;
+            border: 1px solid white;
+        }
+    }
+
+    &__main_details{
+        
+        &--text{
+            width: 70%;
+            
+        }
+      
+        .advertisement{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    }
+
 }

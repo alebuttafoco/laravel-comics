@@ -21,6 +21,16 @@ section {
   margin: auto;
 }
 
+.container-sm {
+  width: 60%;
+  margin: auto;
+}
+
+.row-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .row-center {
   display: flex;
   justify-content: center;
@@ -219,4 +229,23 @@ section {
   height: 50px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.book__cover {
+  background-color: #0282F9;
+  height: 80px;
+  position: relative;
+}
+.book__cover img {
+  position: absolute;
+  bottom: 25px;
+  border: 1px solid white;
+}
+.book__main_details--text {
+  width: 70%;
+}
+.book__main_details .advertisement {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }

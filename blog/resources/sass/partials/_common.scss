@@ -21,6 +21,16 @@ section{
     margin: auto;
 }
 
+.container-sm{
+    width: 60%;
+    margin: auto;
+}
+
+.row-between{
+    display: flex;
+    justify-content: space-between;
+}
+
 .row-center{
     display: flex;
     justify-content: center;

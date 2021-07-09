@@ -27,8 +27,8 @@
     </div>
     {{-- /cards --}}
 
-     {{-- btn --}}
-     <div class="row-center">
+    {{-- btn --}}
+    <div class="row-center">
         <div class="btn btn--load_more">load more</div>
     </div>
 
