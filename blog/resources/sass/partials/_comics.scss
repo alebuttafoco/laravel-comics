@@ -1,7 +1,7 @@
 .comics{
     background-color: $secondary_color;
     color: $light_color;
-    padding: 50px 0;
+    padding-top: 50px;
 
     .cards {
         .container{
@@ -26,6 +26,28 @@
     
         &__text{
             margin-top: 20px;
+        }
+    }
+
+    .features{
+        background-color: $primary_color;
+        color: $light_color;
+        padding: 50px;
+        margin-top: 30px;
+
+        .container{
+            .feature{
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+    
+                img{
+                    margin-right: 15px;
+                    width: 50px;
+                    height: 50px;
+                    object-fit: contain;
+                }
+            }
         }
     }
 }
