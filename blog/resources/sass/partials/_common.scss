@@ -8,14 +8,27 @@ body{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+section{
+    position: relative;
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
 
-.row{
+.row-center{
     display: flex;
     justify-content: center;
+}
+
+.row-evenly{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .btn{
@@ -32,4 +45,15 @@ body{
     text-align: center;
     background-color: $primary_color;
     width: 200px;
+}
+
+.section_title{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: $light_color;
+    background-color: $primary_color;
+    padding: 15px 30px;
+    position: absolute;
+    top: -35px;
 }
