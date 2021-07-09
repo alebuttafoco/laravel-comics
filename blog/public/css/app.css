@@ -13,13 +13,25 @@ body {
   margin: auto;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
+  cursor: pointer;
   text-transform: uppercase;
   color: #FFFFFF;
   border: 1px solid #0282F9;
   padding: 12px;
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+.btn--load_more {
+  text-align: center;
+  background-color: #0282F9;
+  width: 200px;
 }
 
 .header__top {
