@@ -1,3 +1,4 @@
+// reset
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +9,7 @@ body{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+// tags
 a{
     text-decoration: none;
 }
@@ -16,6 +18,7 @@ section{
     position: relative;
 }
 
+// containers
 .container{
     width: 80%;
     margin: auto;
@@ -26,6 +29,7 @@ section{
     margin: auto;
 }
 
+// rows
 .row-between{
     display: flex;
     justify-content: space-between;
@@ -41,6 +45,7 @@ section{
     justify-content: space-evenly;
 }
 
+// botton
 .btn{
     cursor: pointer;
     text-transform: uppercase;
@@ -57,6 +62,7 @@ section{
     width: 200px;
 }
 
+// title
 .section_title{
     display: inline-block;
     text-transform: uppercase;
@@ -68,10 +74,19 @@ section{
     top: -35px;
 }
 
+// border gray
 .bb{
     border-bottom: 1px solid lightgray;
 }
 
 .bt{
     border-top: 1px solid lightgray;
+}
+
+.br{
+    border-right: 1px solid lightgray;
+}
+
+.bl{
+    border-left: 1px solid lightgray;
 }

@@ -112,6 +112,37 @@
             </div>
         </div>
     </div>
+
+    {{-- bottom features --}}
+    <div class="features bt">
+        <div class="container-sm">
+
+            {{-- digital comics --}}
+            <div class="row bl">
+                <span>digital comics</span>
+                <img src="" alt="image">
+            </div>
+
+            {{-- shop dc --}}
+            <div class="row bl">
+                <span>shop dc</span>
+                <img src="" alt="image">
+            </div>
+
+            {{-- comic shop locator --}}
+            <div class="row bl">
+                <span>comic shop locator</span>
+                <img src="" alt="image">
+            </div>
+
+            {{-- subscriptions --}}
+            <div class="row bl br">
+                <span>subscriptions</span>
+                <img src="" alt="image">
+            </div>
+
+        </div>
+    </div>
 </div>
 
 
