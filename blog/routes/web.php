@@ -21,11 +21,22 @@ Route::get('/characters', function () {
 COMICS 
 **************************************** */
 
-Route::get('/', function () {
+Route::get('/comics', function () {
+    $comics = config('comics.data');
+    return view('comics.index', compact('comics')); 
+})->name('comics');
+
+Route::get('comics/{id}', function($id){
     $comics = config('comics.data');
 
-    return view('comics', compact('comics')); 
-})->name('comics');
+    if(is_numeric($id) && $id < count($comics) && $id >= 0){
+        $comic = $comics[$id];
+        return view('comics.show', compact('comic'));
+    } else {
+        abort(404);
+    }
+
+})->name('comic');
 
 /* ************************************
 /end COMICS
