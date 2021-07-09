@@ -19,15 +19,15 @@
             {{-- book details --}}
             <div class="book__main_details--text">
                 {{-- title --}}
-                <h2> {{$comic['title']}} </h2>
+                <h2 class="heading"> {{$comic['title']}} </h2>
 
                 {{-- info price and available --}}
-                <div class="available row-between">
+                <div class="available">
                     <div class="row-between">
                         <span> U.S. Price: <span class="price"> {{$comic['price']}} </span> </span>
                         <span>AVAILABLE</span>
+                        <span class="check_availability">Check Availability</span>
                     </div>
-                    <div class="check_availability">check availability</div>
                 </div>
 
                 {{-- description --}}
@@ -46,16 +46,20 @@
     </div>
 
     {{-- talent and specs --}}
-    <div class="row-between">
-        {{-- talent --}}
-        <div class="talent">
-            <h2></h2>
+    <div class="">
+
+        <div class="container-sm row-between">
+            {{-- talent --}}
+            <div class="info">
+                <h2 class="info__title">Talent</h2>
+            </div>
+    
+            {{-- specs --}}
+            <div class="info">
+                <h2 class="info__title">Specs</h2>
+            </div>
         </div>
 
-        {{-- specs --}}
-        <div class="specs">
-            <h2></h2>
-        </div>
     </div>
 </div>
 

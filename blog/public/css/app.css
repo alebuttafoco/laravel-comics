@@ -241,8 +241,37 @@ section {
   bottom: 25px;
   border: 1px solid white;
 }
+.book__main_details {
+  padding: 50px 0;
+}
 .book__main_details--text {
   width: 70%;
+}
+.book__main_details--text .heading {
+  text-transform: uppercase;
+  color: #003F5E;
+  font-size: 2rem;
+}
+.book__main_details--text .available {
+  background-color: #55BA59;
+  color: #FFFFFF;
+  border: 1px solid #003F5E;
+  margin: 20px 0;
+}
+.book__main_details--text .available span {
+  padding: 15px;
+}
+.book__main_details--text .available span:first-child {
+  width: 70%;
+}
+.book__main_details--text .available .check_availability {
+  border-left: 1px solid gray;
+  padding: 15px;
+}
+.book__main_details--text .description {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #797979;
 }
 .book__main_details .advertisement {
   width: 300px;
