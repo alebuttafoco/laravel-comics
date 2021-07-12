@@ -11,7 +11,7 @@
     <nav class="nav container">
         {{-- logo --}}
         <div class="logo">
-            <img class="logo__img" src="./img/dc-logo.png" alt="">
+            <img class="logo__img" src=" {{asset('img/dc-logo.png')}} " alt="">
         </div>
 
         {{-- links --}}

@@ -109,9 +109,13 @@
         }
       
         .advertisement{
-            width: 300px;
+            padding-top: 20px;
             height: 300px;
-            border: 1px solid black;
+
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
         }
     }
 

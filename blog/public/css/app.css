@@ -290,9 +290,13 @@ section {
   color: #797979;
 }
 .book__main_details .advertisement {
-  width: 300px;
+  padding-top: 20px;
   height: 300px;
-  border: 1px solid black;
+}
+.book__main_details .advertisement img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .book .info_bottom {
   border-top: 1px solid lightgray;

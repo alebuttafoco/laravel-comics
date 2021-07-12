@@ -39,7 +39,7 @@
 
             {{-- advertisement --}}
             <div class="advertisement">
-                <img src="./img/adv.jpg" alt="">IMMAGINE
+                <img src=" {{asset('img/adv.jpg')}}" alt="">
             </div>
         </div>
 
